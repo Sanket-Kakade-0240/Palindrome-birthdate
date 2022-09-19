@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300&display=swap');
+body{
+    font-family: 'Lato', sans-serif;
+    background-image: url('palindrome.jpg') ;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position-y: center  ;
+}
+.contain{
+    text-align: center;
+    display: block;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    
+    }
+    
+    .list-non-bullet {
+        list-style: none;
+    }
+    
+    .list-item-inline {
+        display: inline;
+        padding: 0rem 0.5rem;
+    }
+
+.navigation {
+    box-shadow: 10px 5px 5px white ;
+    background-color: #b34e0b;
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    top: 0;
+    padding-top: 2rem;
+    }
+    
+    .navigation .nav-hmm {
+        font-weight: bold;
+    }
+        
+    .navigation .nav-pills {
+        text-align: right;
+    }
+        
+    .navigation .link {
+        color:white;
+    }
+        
+    .navigation .link-active {
+        font-weight: bold;
+    }
+
+#dob{
+    padding: 0.2rem;
+    width: 13%;
+    font-weight: bold;
+}
+    #btn-check{
+        font-size: larger;
+    }
+    
+    #btn-check:hover{
+        color: #b34e0b;
+        border-style: solid;
+        background-color:white;
+        border-color: #b34e0b;
+    }
+
+    #output{
+        font-weight: bolder;
+        font-size: larger;
+    }
+
+.footer {
+    margin-top: 5%;
+    background-color: #b34e0b;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+    padding-bottom: 2rem;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
